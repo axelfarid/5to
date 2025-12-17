@@ -2,142 +2,139 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Motos Prime</title>
+    <title>MOTOS PRIME</title>
     <link rel="stylesheet" href="./css/styles.css">
-    <script defer src="./js/script.js"></script>
 </head>
 <body>
 
-<!-- NAVBAR -->
-<nav class="nav">
-    <div class="logo">Motos Prime</div>
-    <ul>
-        <li><button onclick="scrollToSection('inicio')">Inicio</button></li>
-        <li><button onclick="scrollToSection('motos')">Motos</button></li>
-        <li><button onclick="scrollToSection('contacto')">Contacto</button></li>
-    </ul>
-</nav>
+    <!-- HEADER -->
+    <header id="header">
+        <h1>MOTOS PRIME</h1>
+        
+        <div class="buttons-header">
+            <button onclick="scrollToSection('gallery')">Ver Galería</button>
+            <button onclick="scrollToSection('contact')">Contacto</button>
+        </div>
+    </header>
 
-<!-- INICIO -->
-<section id="inicio" class="hero reveal">
-    <h1>Motos Prime</h1>
-    <p>
-        Motocicletas premium de alto rendimiento, diseño exclusivo
-        y tecnología avanzada para verdaderos apasionados.
-    </p>
-    <button class="btn-main" onclick="scrollToSection('motos')">
-        Explorar Motos
-    </button>
-</section>
-
-<!-- MOTOS -->
-<section id="motos" class="motos">
-
-    <article class="moto reveal">
-        <img src="./img/ducati.jpg">
-        <h3>Ducati Panigale V4</h3>
-        <p>Superbike italiana con motor V4 de 1103 cc y 215 HP.</p>
+    <!-- NAV -->
+    <nav class="navBar">
         <ul>
-            <li>Motor: 1103 cc</li>
-            <li>Potencia: 215 HP</li>
-            <li>Uso: Pista / Calle</li>
+            <li><button onclick="scrollToSection('header')">Inicio</button></li>
+            <li><button onclick="scrollToSection('gallery')">Galería</button></li>
+            <li><button onclick="scrollToSection('contact')">Contacto</button></li>
         </ul>
-    </article>
+    </nav>
 
-    <article class="moto reveal">
-        <img src="./img/yamaha-mt09.jpg">
-        <h3>Yamaha MT-09</h3>
-        <p>Naked deportiva, ligera y agresiva.</p>
-        <ul>
-            <li>Motor: 890 cc</li>
-            <li>Potencia: 119 HP</li>
-            <li>Estilo: Naked</li>
-        </ul>
-    </article>
+    <!-- GALERÍA -->
+    <section id="gallery">
+        <div class="moto">
+            <h2>Ducati Panigaleadasd V4</h2>
+            <img src="https://th.bing.com/th/id/R.f892700ebf510e9a96321f6ee3b9dc3b?rik=ag3bKVymnWldMA&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f11%2fDucati-Wallpapers-HD-Free-Download.jpg&ehk=Zjj1GjbvtksuinoZy0SViNufJs8ck5foyds3V7jG0s4%3d&risl=&pid=ImgRaw&r=0" alt="Ducati Panigale V4">
+            <p>Motor V4 de 1,103 cc · 215 HP · Quick Shift · Aerodinámica de competición · Experiencia extrema</p>
+            <p>
+                La Ducati Panigale V4 ofrece aceleración impresionante gracias a su motor V4 de 1,103 cc que genera 215 HP. 
+                Equipamiento de alta gama como frenos Brembo y Ducati Quick Shift garantizan un manejo preciso. 
+                Su diseño aerodinámico inspirado en MotoGP permite estabilidad y velocidad extrema. 
+                Perfecta tanto para pista como para carretera, combinando adrenalina con seguridad. 
+                Ideal para pilotos que buscan una experiencia de conducción icónica y extrema.
+            </p>
+        </div>
 
-    <article class="moto reveal">
-        <img src="./img/bmw-s1000rr.jpg">
-        <h3>BMW S1000RR</h3>
-        <p>Ingeniería alemana con tecnología de competición.</p>
-        <ul>
-            <li>Motor: 999 cc</li>
-            <li>Potencia: 205 HP</li>
-            <li>Electrónica avanzada</li>
-        </ul>
-    </article>
+        <div class="moto">
+            <img src="https://th.bing.com/th/id/R.a57fc183ce6bc174c74f59dcb25f6205?rik=PeTHH2q%2fF0lbHw&riu=http%3a%2f%2fmotolorca.com%2fwp-content%2fuploads%2f2024%2f06%2f2024-Yamaha-MT09-EU-Midnight_Cyan-360-Degrees-001-03.jpg&ehk=T2AAQvugCzOFMBNwrQxvXFw8xwigZCxFBPLc54vSLQA%3d&risl=&pid=ImgRaw&r=0" alt="Yamaha MT-09">
+            <h2>Yamaha MT-09</h2>
+            <p>890 cc · Tricilíndrica · Modos de conducción · Agilidad urbana · Diseño agresivo</p>
+            <p>
+                La Yamaha MT-09 es una naked deportiva con motor tricilíndrico de 890 cc que ofrece potencia y par óptimos. 
+                Ligera y maniobrable, ideal para ciudad y carretera. Cuenta con modos de conducción ajustables, control de tracción 
+                y frenos ABS de alta precisión. Su diseño agresivo y moderno llama la atención. 
+                Perfecta para pilotos que buscan diversión diaria sin sacrificar rendimiento y control total.
+            </p>
+        </div>
 
-    <article class="moto reveal">
-        <img src="./img/kawasaki-ninja.jpg">
-        <h3>Kawasaki Ninja ZX-10R</h3>
-        <p>Superbike inspirada en MotoGP.</p>
-        <ul>
-            <li>Motor: 998 cc</li>
-            <li>Potencia: 203 HP</li>
-            <li>Velocidad extrema</li>
-        </ul>
-    </article>
+        <div class="moto">
+            <img src="https://www.motorrad-bilder.at/slideshows/291/022266/CFMOTO153.jpg" alt="Yamaha MT-09">
+            <h2>CFMoto 800NK</h2>
+            <p>799 cc · Pantalla TFT · Modos de conducción · ABS · Excelente relación calidad-precio</p>
+            <p>
+                La CFMoto 800NK tiene un motor bicilíndrico de 799 cc con pantalla TFT a color y tecnología avanzada de asistencia al piloto. 
+                Dispone de ABS, modos de conducción y un diseño moderno y elegante. 
+                Su relación calidad-precio es insuperable, ofreciendo confort y seguridad para viajes largos o uso diario. 
+                Perfecta para quienes buscan innovación, maniobrabilidad y economía sin sacrificar estilo ni tecnología.
+            </p>
+        </div>
 
-    <article class="moto reveal">
-        <img src="./img/honda-cb500f.jpg">
-        <h3>Honda CB500F</h3>
-        <p>Equilibrio perfecto para uso diario.</p>
-        <ul>
-            <li>Motor: 471 cc</li>
-            <li>Confiable</li>
-            <li>Uso diario</li>
-        </ul>
-    </article>
+        <div class="moto">
+            <h2>Kawasaki Ninja ZX-10R</h2>
+            <p>998 cc · Superbike · Electrónica avanzada · Precisión en curvas · Velocidad extrema</p>
+            <p>
+                La Kawasaki Ninja ZX-10R es una superbike de 998 cc inspirada en MotoGP con electrónica avanzada y control de tracción. 
+                Sus frenos ABS permiten detenerse con precisión mientras que su aerodinámica maximiza velocidad y estabilidad. 
+                Diseñada para pilotos profesionales, ofrece rendimiento extremo y maniobrabilidad en pista y carretera. 
+                Una auténtica máquina de competición con ADN de carreras que domina curvas y rectas con seguridad.
+            </p>
+        </div>
 
-    <article class="moto reveal">
-        <img src="./img/suzuki-gsxr.jpg">
-        <h3>Suzuki GSX-R750</h3>
-        <p>Deportiva icónica con excelente manejo.</p>
-        <ul>
-            <li>Motor: 750 cc</li>
-            <li>Deportiva</li>
-            <li>Precisión</li>
-        </ul>
-    </article>
+        <div class="moto">
+            <h2>Honda CBR1000RR-R Fireblade</h2>
+            <p>1,000 cc · Superbike · Chasis ligero · Electrónica avanzada · Potencia máxima</p>
+            <p>
+                La Honda CBR1000RR-R Fireblade combina tecnología de pista con diseño agresivo. 
+                Su motor de 1,000 cc y 215 HP permite aceleración fulminante. 
+                Cuenta con control de tracción, modos de pilotaje y suspensión ajustable electrónicamente. 
+                Ideal para pilotos que buscan velocidad, precisión y control absoluto en cada curva.
+            </p>
+        </div>
 
-    <article class="moto reveal">
-        <img src="./img/triumph-speed-triple.jpg">
-        <h3>Triumph Speed Triple</h3>
-        <p>Naked británica premium.</p>
-        <ul>
-            <li>Motor: 1160 cc</li>
-            <li>Torque alto</li>
-            <li>Premium</li>
-        </ul>
-    </article>
+        <div class="moto">
+            <h2>BMW S1000RR</h2>
+            <p>999 cc · Superbike · Electrónica dinámica · ABS Pro · Diseño aerodinámico</p>
+            <p>
+                La BMW S1000RR ofrece un equilibrio perfecto entre potencia, tecnología y estilo. 
+                Su motor de 999 cc genera más de 200 HP, combinado con ABS Pro, control dinámico de tracción y modos de conducción. 
+                Aerodinámica optimizada para alta velocidad y estabilidad en curvas. Una opción premium para pilotos exigentes.
+            </p>
+        </div>
 
-    <article class="moto reveal">
-        <img src="./img/cfmoto.jpg">
-        <h3>CFMoto 800NK</h3>
-        <p>Diseño moderno y tecnología avanzada.</p>
-        <ul>
-            <li>Motor: 799 cc</li>
-            <li>Pantalla TFT</li>
-            <li>Gran valor</li>
-        </ul>
-    </article>
+        <div class="moto">
+            <h2>KTM 1290 Super Duke R</h2>
+            <p>1,301 cc · Naked deportiva · Torque elevado · Suspensión avanzada · Experiencia radical</p>
+            <p>
+                La KTM 1290 Super Duke R es conocida como “The Beast”. Su motor V-twin de 1,301 cc ofrece torque impresionante y aceleración brutal. 
+                Suspensión WP ajustable, control de tracción y modos de conducción completan la experiencia. 
+                Ideal para pilotos que buscan sensaciones extremas y manejo agresivo en carretera o pista.
+            </p>
+        </div>
 
-</section>
+        <div class="moto">
+            <h2>Triumph Street Triple RS</h2>
+            <p>765 cc · Naked deportiva · Ligera y ágil · Electrónica avanzada · Diseño moderno</p>
+            <p>
+                La Triumph Street Triple RS combina ligereza y potencia con un motor tricilíndrico de 765 cc. 
+                Modos de conducción, control de tracción y frenos Brembo aseguran seguridad y diversión. 
+                Diseño moderno y agresivo, perfecta para ciudad y carretera con excelente maniobrabilidad.
+            </p>
+        </div>
+    </section>
 
-<!-- CONTACTO -->
-<section id="contacto" class="contacto reveal">
-    <h2>Contacto</h2>
-    <p>Agenda tu prueba de manejo o solicita información</p>
-    <form>
-        <input type="text" placeholder="Nombre" required>
-        <input type="email" placeholder="Correo electrónico" required>
-        <textarea placeholder="Mensaje" required></textarea>
-        <button type="submit">Enviar</button>
-    </form>
-</section>
+    <!-- CONTACTO -->
+    <section id="contact">
+        <h2>Contacto</h2>
+        <p>Escríbenos y agenda tu prueba de manejo.</p>
+        <form>
+            <input type="text" placeholder="Nombre" required>
+            <input type="email" placeholder="Correo electrónico" required>
+            <textarea placeholder="Mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
 
-<footer>
-    <p>&copy; 2025 Motos Prime · Premium Performance</p>
-</footer>
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2025 Motos Prime. Todos los derechos reservados.</p>
+    </footer>
 
+    <script src="./js/script.js"></script>
 </body>
 </html>
