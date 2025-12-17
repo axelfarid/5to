@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Motos Prime</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script defer src="./js/script.js"></script>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="nav">
+    <div class="logo">Motos Prime</div>
+    <ul>
+        <li><button onclick="scrollToSection('inicio')">Inicio</button></li>
+        <li><button onclick="scrollToSection('motos')">Motos</button></li>
+        <li><button onclick="scrollToSection('contacto')">Contacto</button></li>
+    </ul>
+</nav>
+
+<!-- INICIO -->
+<section id="inicio" class="hero reveal">
+    <h1>Motos Prime</h1>
+    <p>
+        Motocicletas premium de alto rendimiento, diseño exclusivo
+        y tecnología avanzada para verdaderos apasionados.
+    </p>
+    <button class="btn-main" onclick="scrollToSection('motos')">
+        Explorar Motos
+    </button>
+</section>
+
+<!-- MOTOS -->
+<section id="motos" class="motos">
+
+    <article class="moto reveal">
+        <img src="./img/ducati.jpg">
+        <h3>Ducati Panigale V4</h3>
+        <p>Superbike italiana con motor V4 de 1103 cc y 215 HP.</p>
+        <ul>
+            <li>Motor: 1103 cc</li>
+            <li>Potencia: 215 HP</li>
+            <li>Uso: Pista / Calle</li>
+        </ul>
+    </article>
+
+    <article class="moto reveal">
+        <img src="./img/yamaha-mt09.jpg">
+        <h3>Yamaha MT-09</h3>
+        <p>Naked deportiva, ligera y agresiva.</p>
+        <ul>
+            <li>Motor: 890 cc</li>
+            <li>Potencia: 119 HP</li>
+            <li>Estilo: Naked</li>
+        </ul>
+    </article>
+
+    <article class="moto reveal">
+        <img src="./img/bmw-s1000rr.jpg">
+        <h3>BMW S1000RR</h3>
+        <p>Ingeniería alemana con tecnología de competición.</p>
+        <ul>
+            <li>Motor: 999 cc</li>
+            <li>Potencia: 205 HP</li>
+            <li>Electrónica avanzada</li>
+        </ul>
+    </article>
+
+    <article class="moto reveal">
+        <img src="./img/kawasaki-ninja.jpg">
+        <h3>Kawasaki Ninja ZX-10R</h3>
+        <p>Superbike inspirada en MotoGP.</p>
+        <ul>
+            <li>Motor: 998 cc</li>
+            <li>Potencia: 203 HP</li>
+            <li>Velocidad extrema</li>
+        </ul>
+    </article>
+
+    <article class="moto reveal">
+        <img src="./img/honda-cb500f.jpg">
+        <h3>Honda CB500F</h3>
+        <p>Equilibrio perfecto para uso diario.</p>
+        <ul>
+            <li>Motor: 471 cc</li>
+            <li>Confiable</li>
+            <li>Uso diario</li>
+        </ul>
+    </article>
+
+    <article class="moto reveal">
+        <img src="./img/suzuki-gsxr.jpg">
+        <h3>Suzuki GSX-R750</h3>
+        <p>Deportiva icónica con excelente manejo.</p>
+        <ul>
+            <li>Motor: 750 cc</li>
+            <li>Deportiva</li>
+            <li>Precisión</li>
+        </ul>
+    </article>
+
+    <article class="moto reveal">
+        <img src="./img/triumph-speed-triple.jpg">
+        <h3>Triumph Speed Triple</h3>
+        <p>Naked británica premium.</p>
+        <ul>
+            <li>Motor: 1160 cc</li>
+            <li>Torque alto</li>
+            <li>Premium</li>
+        </ul>
+    </article>
+
+    <article class="moto reveal">
+        <img src="./img/cfmoto.jpg">
+        <h3>CFMoto 800NK</h3>
+        <p>Diseño moderno y tecnología avanzada.</p>
+        <ul>
+            <li>Motor: 799 cc</li>
+            <li>Pantalla TFT</li>
+            <li>Gran valor</li>
+        </ul>
+    </article>
+
+</section>
+
+<!-- CONTACTO -->
+<section id="contacto" class="contacto reveal">
+    <h2>Contacto</h2>
+    <p>Agenda tu prueba de manejo o solicita información</p>
+    <form>
+        <input type="text" placeholder="Nombre" required>
+        <input type="email" placeholder="Correo electrónico" required>
+        <textarea placeholder="Mensaje" required></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2025 Motos Prime · Premium Performance</p>
+</footer>
+
+</body>
+</html>
